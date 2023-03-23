@@ -933,7 +933,7 @@ TextGui.CreateDropdown({
 	["List"] = {"Alphabetical", "Length"},
 	["Function"] = function(val)
 		sortingmethod = val
-		GuiLibrary["UpdateHudEvent"]:Fire()
+		GuiLibrary["UpdateHudEvent"]:Fire(1)
 	end
 })
 TextGui.CreateDropdown({
